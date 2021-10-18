@@ -1,7 +1,7 @@
 
 /*=======================
 	Header CSS
-=========================*/ 
+=========================*/
 #header {
 	top: 0;
 	width: 100%;
@@ -10,11 +10,13 @@
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	transition: all 0.3s ease;
-	background:rgb(0, 0, 0);
+	background:#333333;
 }
 /* Logo */
 #header .logo {
 	padding-top: 17px;
+	display: flex;
+	flex-direction: row;
 }
 #header .logo a {
 	color: #fff;
@@ -32,6 +34,11 @@
 	height: 10px;
 	content: "";
 	border-radius: 100%;
+}
+#header .logo img {
+	margin-left: 5px;
+	height: 30px;
+	width: 30px;
 }
 /* Main Menu */
 #header .nav-area{
@@ -349,7 +356,7 @@
 	Personal CSS
 =========================*/  
 #personal-area {
-	background-image: url('images/image3.png');
+	background-image: url('https://cdn.dribbble.com/users/299116/screenshots/15061697/media/584121ad531edc02d2334ef2fb476881.jpg?compress=1&resize=1200x900');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 680px;
