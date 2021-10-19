@@ -1,4 +1,12 @@
+body::-webkit-scrollbar{
+background: transparent;
+width: 0.7rem;
+}
 
+body::-webkit-scrollbar-thumb{
+background: #7b2cbf;
+border-radius: 0.5rem;
+}
 /*=======================
 	Header CSS
 =========================*/
@@ -365,9 +373,10 @@
 	background-position: center;
 }
 /* .video-intro{
-	position: absolute;
-	height: 100%;
 	width: 100%;
+	height: 1080px;
+	position:absolute;
+	object-fit: fill;
 	z-index: -1;
 } */
 #personal-area .personal-single {
@@ -457,7 +466,6 @@
 #personal-area .personal-text .btn:last-child{
 	margin:0;
 }
- 
 
 /*=======================
 	About Me CSS
