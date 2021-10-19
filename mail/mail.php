@@ -1,17 +1,23 @@
 <?php
-$name = $_POST{'name'};
-$email = $_POST{'email'};
-$message = $_POST['message'];
+$nombre = $_POST['name'];
+$mail = $_POST['email'];
+$empresa = $_POST['message'];
 
-$email_message = "
+$header = 'From: ' . $mail . " \r\n";
+$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
+$header .= "Mime-Version: 1.0 \r\n";
+$header .= "Content-Type: text/plain";
 
-Name: ". $name ."
-Email: ". $email ."
-Message: ". $message ."
+$mensaje = "This message was sent by " . $nombre . ",\r\n";
+$message .= "Your email is: " . $mail . " \r\n";
+$message .= "Message: " . $_POST['message'] . " \r\n";
+$message .= "Sent on " . date('d/m/Y', time());
 
-";
+$from = 'danypolo18@hotmail.com';
+$issue = 'Mensaje de mi sitio web';
 
-mail ("danypolo18@hotmail.com" , "New Message Form Your Porfolio", $email_message);
+mail($from, $issue, utf8_decode($message), $header);
+
 header("Location:../index.html");
 ?>
 
