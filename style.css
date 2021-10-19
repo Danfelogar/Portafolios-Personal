@@ -350,11 +350,11 @@
 }
 /*=======================
 	End Header
-=========================*/ 
+=========================*/
 
 /*=======================
 	Personal CSS
-=========================*/  
+=========================*/
 #personal-area {
 	background-image: url('https://cdn.dribbble.com/users/299116/screenshots/15061697/media/584121ad531edc02d2334ef2fb476881.jpg?compress=1&resize=1200x900');
 	background-size: cover;
@@ -374,7 +374,7 @@
 	position: relative;
 	z-index: 3;
 }
- 
+
 #personal-area .personal-text {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1429,7 +1429,7 @@
 	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
 	-moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
 	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.50);
-	height: 435px;
+	height: 355px;
 }
 #contact .form-group {
 	position: relative;
