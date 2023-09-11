@@ -877,6 +877,8 @@ border-radius: 0.5rem;
 }
 #portfolio .portfolio-head img{
 	width:100%;
+	max-height: 250px;
+	min-height: 250px;
 	z-index:10;
 }
 #portfolio .portfolio-single:hover img{
@@ -1509,7 +1511,7 @@ border-radius: 0.5rem;
 	-moz-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.50);
 	box-shadow:0px 0px 4px rgba(0, 0, 0, 0.50);
 	padding: 20px;
-	height:355px;
+	/* height:355px; */
 }
 #contact .single-address {
 	position: relative;
