@@ -7,6 +7,15 @@ body::-webkit-scrollbar-thumb{
 background: #7b2cbf;
 border-radius: 0.5rem;
 }
+
+html {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width:  1880px;
+	margin:  0 auto !important;
+	background-color: #f5f5f5;
+  }
 /*=======================
 	Header CSS
 =========================*/
@@ -19,6 +28,7 @@ border-radius: 0.5rem;
 	-moz-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	background:#333333;
+	max-width:  1880px;
 }
 /* Logo */
 #header .logo {
